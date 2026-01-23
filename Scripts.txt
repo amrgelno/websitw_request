@@ -1,0 +1,12 @@
+const images=document.querySelectorAll("figure>div>a>img");
+images.length&&images.forEach((t=>{t.setAttribute("loading","lazy")}));
+
+
+
+
+<script>
+if (!sessionStorage.getItem('refreshed')) {
+    sessionStorage.setItem('refreshed', 'true');
+    window.location.reload();
+}
+</script>
