@@ -8,3 +8,4 @@ function removeCommentsFromScript(code) {
   return code.trim();
 }
 
+
